@@ -2,6 +2,7 @@
 
 ## 1.0.0 — Unreleased
 
+- chore(devx): retain proof artifacts in CI through a privacy-checked allowlist (#398)
 - Added the `redacted_ancestry` Noir circuit and helper (#356): proves a redacted
   derivative descends from a committed parent evidence object without revealing
   the unredacted parent hash, the redaction mask preimage, or credential secrets.
