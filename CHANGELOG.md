@@ -2,6 +2,7 @@
 
 ## 1.0.0 — Unreleased
 
+- Added a privacy-safe redaction preview in Evidence Studio that discloses truncated public fingerprints while withholding seeds, witness proofs, private keys, and media URLs (`frontend/src/redactionPreview.ts`).
 - chore(devx): retain proof artifacts in CI through a privacy-checked allowlist (#398)
 - Added the `redacted_ancestry` Noir circuit and helper (#356): proves a redacted
   derivative descends from a committed parent evidence object without revealing
